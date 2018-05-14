@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 4vh 2vw;
+}
+ul li:not(:last-child) {
+  padding-bottom: 6vh;
+}
