@@ -36,7 +36,7 @@ ul li:not(:last-child) {
 
 .animations-section li:nth-child(n + 5):nth-child(-n + 8) a {
   background-color: rgba(134, 75, 198, 0.8);
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(242, 230, 255, 0.6);
 }
 
 .bottom-link {
