@@ -7,7 +7,7 @@ h1 {
   padding: 4vh 2vw;
 }
 section {
-  padding: 0 2vw;
+  padding: 0 2vw 6vh;
   display: flex;
 }
 section div:last-child {
@@ -37,4 +37,8 @@ ul li:not(:last-child) {
 .animations-section li:nth-child(n + 5):nth-child(-n + 8) a {
   background-color: rgba(134, 75, 198, 0.8);
   color: rgba(0, 0, 0, 0.5);
+}
+
+.bottom-link {
+  margin-left: 2vw;
 }
