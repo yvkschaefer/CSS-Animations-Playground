@@ -1,10 +1,40 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: helvetica;
+}
+h1 {
+  padding: 4vh 2vw;
 }
 section {
-  padding: 4vh 2vw;
+  padding: 0 2vw;
+  display: flex;
+}
+section div:last-child {
+  padding-left: 20vw;
+}
+ul {
+  padding-left: 1vw;
+  padding-top: 1vh;
+}
+a {
+  text-decoration: none;
+  background-color: rgba(25, 43, 194, 0.7);
+  color: rgba(255, 255, 255, 1);
+  padding: 2vh 2vw;
+  opacity: 0.8;
+}
+a:hover {
+  opacity: 1;
+}
+li {
+  list-style-type: none;
 }
 ul li:not(:last-child) {
   padding-bottom: 6vh;
+}
+
+.animations-section li:nth-child(n + 5):nth-child(-n + 8) a {
+  background-color: rgba(134, 75, 198, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
